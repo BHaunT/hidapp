@@ -1,24 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>MFD</title>
+    <title>HiDapp!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.6.2/tailwind.min.css" integrity="sha512-mZ+ZnjWE+WxIG8b8Ilysrfq7stpTrGu53lofHJbhuIe6iYmURmoXlZ4ycMN7qQoMhR3qWzVXF/q4N4UKfwmZeQ==" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="main.min.css" /> 
 </head>
 
 <body>
-
- 
- 
     <main>
-
-
         <h1>Hi dApp!</h1>
-
         <hr>
-        
-        <!--<img src="https://img.icons8.com/carbon-copy/2x/life-cycle-female.png" />-->
-        
         <div>
             <p>First, we must connect to the dApp</p>
             <button id="connectToDapp">Connect to dApp</button>
@@ -31,9 +22,9 @@ connectButton.addEventListener('click', () => {
     });
 });
 </code>
+
         </div>
         
-
         <section>
             <h3>Interactions</h3>
 
@@ -116,7 +107,6 @@ myContract.methods.createPerson(createName.value, createNumber.value).send({ 'va
         console.log("on error receipt");
         console.log(error, receipt);
     })
-
 </code>            
 
         </section>
