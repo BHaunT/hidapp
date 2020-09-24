@@ -1,7 +1,3 @@
-// var address = "0xd41c8c355C44087Dec5EA3dC1406c88022197122";
-// var address = "0xa9D2Fc84512a2722B649746ae42425DA67f202ae";
-// var address = "0x7a122DA56D1E8105EF34f6B372A2657Cb653FFB4";
-// var address = "0x87ef85dfeDD7381df45bB118c20c845380d3B719";
 var address = "0x0D642A4669C99F2276cf6b39a63a3CBE018c8329";
 
 var abi = [
